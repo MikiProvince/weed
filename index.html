@@ -10,19 +10,34 @@
 </head>
 
 <body>
+<div class="pop" id="message">
+    <h1>Внимание</h1>
+    <p>Если вы открыли приглашение на телефоне - переверните его в горизонтальное положение! Спасибо! </p>
+</div>
+
     <div class="card">
+        
         <div class="cover">
+            
             <img src="./images/bant.png" alt="">
         </div>
+        
         <div class="details">
             <div>
-                <img src="./images/well.png" alt="">
+                <img src="./images/well.jpg" alt="">
                 <!-- <h3>Nike Air Max 95</h3>
                 <h2><sup>$</sup>230</h2>
                 <a href="#">Buy it Now</a> -->
             </div>
         </div>
     </div>
+
+    <script>
+        setTimeout(function(){
+	document.getElementById('message').style.display = 'none';
+}, 5000);
+
+    </script>
 </body>
 
 </html>
